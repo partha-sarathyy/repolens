@@ -1,0 +1,22 @@
+{
+  "name": "repolens",
+  "version": "0.0.1",
+  "description": "Local AI-powered codebase indexing and exploration tool",
+  "main": "dist/index.js",
+  "bin": {
+    "repolens": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prestart": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
